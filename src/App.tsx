@@ -26,8 +26,8 @@ import Projects from './pages/Projects';
 import Challenges from './pages/Challenges';
 // import Teams from './pages/Teams';
 //import Analytics from './pages/Analytics';
-import Notifications from './pages/Notifications';
-import Help from './pages/Help';
+//import Notifications from './pages/Notifications';
+//import Help from './pages/Help';
 
 function App() {
   return (
