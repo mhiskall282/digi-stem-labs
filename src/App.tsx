@@ -25,7 +25,7 @@ import Courses from './pages/Courses';
 import Projects from './pages/Projects';
 import Challenges from './pages/Challenges';
 // import Teams from './pages/Teams';
-import Analytics from './pages/Analytics';
+//import Analytics from './pages/Analytics';
 import Notifications from './pages/Notifications';
 import Help from './pages/Help';
 
