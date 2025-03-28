@@ -18,10 +18,16 @@ import Auth from './pages/Auth';
 import Leaderboard from './pages/Leaderboard';
 import Achievements from './pages/Achievements';
 import Settings from './pages/Settings';
-//import Playground from './pages/Playground';
 import VirtualLab from './pages/VirtualLab';
 import Mentorship from './pages/Mentorship';
 import Events from './pages/Events';
+import Courses from './pages/Courses';
+import Projects from './pages/Projects';
+import Challenges from './pages/Challenges';
+// import Teams from './pages/Teams';
+import Analytics from './pages/Analytics';
+import Notifications from './pages/Notifications';
+import Help from './pages/Help';
 
 function App() {
   return (
@@ -45,9 +51,15 @@ function App() {
               <Route path="/leaderboard" element={<PrivateRoute><Leaderboard /></PrivateRoute>} />
               <Route path="/achievements" element={<PrivateRoute><Achievements /></PrivateRoute>} />
               <Route path="/settings" element={<PrivateRoute><Settings /></PrivateRoute>} />
-              {/* <Route path="/playground" element={<PrivateRoute><Playground /></PrivateRoute>} /> */}
               <Route path="/mentorship" element={<PrivateRoute><Mentorship /></PrivateRoute>} />
               <Route path="/events" element={<PrivateRoute><Events /></PrivateRoute>} />
+              <Route path="/courses" element={<PrivateRoute><Courses /></PrivateRoute>} />
+              <Route path="/projects" element={<PrivateRoute><Projects /></PrivateRoute>} />
+              <Route path="/challenges" element={<PrivateRoute><Challenges /></PrivateRoute>} />
+              {/* <Route path="/teams" element={<PrivateRoute><Teams /></PrivateRoute>} /> */}
+              <Route path="/analytics" element={<PrivateRoute><Analytics /></PrivateRoute>} />
+              <Route path="/notifications" element={<PrivateRoute><Notifications /></PrivateRoute>} />
+              <Route path="/help" element={<Help />} />
             </Routes>
             <ChatBot />
           </div>
